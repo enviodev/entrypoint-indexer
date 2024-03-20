@@ -1,5 +1,6 @@
 name: Entrypoint
 description: Entrypoint indexer v0.6 & v0.7
+unordered_multichain_mode: true
 contracts:
   - name: Entrypoint
     handler: ./src/EventHandlers.ts
@@ -14,3 +15,237 @@ networks:
         address:
           - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
           - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 5 # Goerli
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 11155111 # Sepolia
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 56 # BSC
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  # - id: 97 # BSC Testnet # hypersync not suported on bsc testnet yet
+  #   start_block: 0
+  #   contracts:
+  #     - name: Entrypoint # A reference to the global contract definition
+  #       address:
+  #         - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+  #         - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 137 # Polygon
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 80001 # Polygon Mumbai
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 1101 # Polygon ZK-EVM
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  # - id: 1442 # Polygon ZK-EVM Testnet # hypersync not suported on polygon zk-evm testnet yet
+  #   start_block: 0
+  #   contracts:
+  #     - name: Entrypoint # A reference to the global contract definition
+  #       address:
+  #         - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+  #         - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 250 # Fantom
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  # - id: 4002 # Fantom Testnet # hypersync not suported on fantom testnet yet
+  #   start_block: 0
+  #   contracts:
+  #     - name: Entrypoint # A reference to the global contract definition
+  #       address:
+  #         - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+  #         - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 10 # Optimism Mainnet
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 11155420 # Optimism Sepolia
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 42161 # Arbitrum
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 421614 # Arbitrum Sepolia
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 42170 # Arbitrum Nova
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  # - id: 1285 # Moonriver # hypersync not suported on moonriver yet
+  #   start_block: 0
+  #   contracts:
+  #     - name: Entrypoint # A reference to the global contract definition
+  #       address:
+  #         - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+  #         - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  - id: 1284 # Moonbeam
+    start_block: 0
+    contracts:
+      - name: Entrypoint # A reference to the global contract definition
+        address:
+          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+# networks: {
+#     ethereum: { chainId: 1, transport: http(process.env.PONDER_RPC_URL_1) },
+#     goerli: { chainId: 5, transport: http(process.env.PONDER_RPC_URL_5) },
+#     sepolia: {
+#       chainId: 11155111,
+#       transport: http(process.env.PONDER_RPC_URL_11155111),
+#     },
+#     bsc: { chainId: 56, transport: http(process.env.PONDER_RPC_URL_56) },
+#     bscTestnet: { chainId: 97, transport: http(process.env.PONDER_RPC_URL_97) },
+#     polygon: { chainId: 137, transport: http(process.env.PONDER_RPC_URL_137) },
+#     polygonMumbai: {
+#       chainId: 80001,
+#       transport: http(process.env.PONDER_RPC_URL_80001),
+#     },
+#     polygonZkevm: {
+#       chainId: 1101,
+#       transport: http(process.env.PONDER_RPC_URL_1101),
+#     },
+#     polygonZkevmTestnet: {
+#       chainId: 1442,
+#       transport: http(process.env.PONDER_RPC_URL_1442),
+#     },
+#     fantom: { chainId: 250, transport: http(process.env.PONDER_RPC_URL_250) },
+#     fantomTestnet: {
+#       chainId: 4002,
+#       transport: http(process.env.PONDER_RPC_URL_4002),
+#     },
+#     opMainnet: { chainId: 10, transport: http(process.env.PONDER_RPC_URL_10) },
+#     opSepolia: {
+#       chainId: 11155420,
+#       transport: http(process.env.PONDER_RPC_URL_11155420),
+#     },
+#     arbitrum: {
+#       chainId: 42161,
+#       transport: http(process.env.PONDER_RPC_URL_42161),
+#     },
+#     arbitrumSepolia: {
+#       chainId: 421614,
+#       transport: http(process.env.PONDER_RPC_URL_421614),
+#     },
+#     arbitrumNova: {
+#       chainId: 42170,
+#       transport: http(process.env.PONDER_RPC_URL_42170),
+#     },
+#     moonriver: {
+#       chainId: 1285,
+#       transport: http(process.env.PONDER_RPC_URL_1285),
+#     },
+#     moonbeam: {
+#       chainId: 1284,
+#       transport: http(process.env.PONDER_RPC_URL_1284),
+#     },
+#     moonbaseAlpha: {
+#       chainId: 1287,
+#       transport: http(process.env.PONDER_RPC_URL_1287),
+#     },
+#     cronos: { chainId: 25, transport: http(process.env.PONDER_RPC_URL_25) },
+#     gnosis: { chainId: 100, transport: http(process.env.PONDER_RPC_URL_100) },
+#     gnosisChiado: {
+#       chainId: 10200,
+#       transport: http(process.env.PONDER_RPC_URL_10200),
+#     },
+#     celo: { chainId: 42220, transport: http(process.env.PONDER_RPC_URL_42220) },
+#     celoAlfajores: {
+#       chainId: 44787,
+#       transport: http(process.env.PONDER_RPC_URL_44787),
+#     },
+#     linea: {
+#       chainId: 59144,
+#       transport: http(process.env.PONDER_RPC_URL_59144),
+#     },
+#     lineaTestnet: {
+#       chainId: 59140,
+#       transport: http(process.env.PONDER_RPC_URL_59140),
+#     },
+#     base: { chainId: 8453, transport: http(process.env.PONDER_RPC_URL_8453) },
+#     baseSepolia: {
+#       chainId: 84532,
+#       transport: http(process.env.PONDER_RPC_URL_84532),
+#     },
+#     scroll: {
+#       chainId: 534352,
+#       transport: http(process.env.PONDER_RPC_URL_534352),
+#     },
+#     scrollSepolia: {
+#       chainId: 534351,
+#       transport: http(process.env.PONDER_RPC_URL_534351),
+#     },
+#     opBnb: { chainId: 204, transport: http(process.env.PONDER_RPC_URL_204) },
+#     opBnbTestnet: {
+#       chainId: 5611,
+#       transport: http(process.env.PONDER_RPC_URL_5611),
+#     },
+#     kroma: { chainId: 255, transport: http(process.env.PONDER_RPC_URL_255) },
+#     kromaTestnet: {
+#       chainId: 2358,
+#       transport: http(process.env.PONDER_RPC_URL_2358),
+#     },
+#     avalancheC: {
+#       chainId: 43114,
+#       transport: http(process.env.PONDER_RPC_URL_43114),
+#     },
+#     avalancheFuji: {
+#       chainId: 43113,
+#       transport: http(process.env.PONDER_RPC_URL_43113),
+#     },
+#     zora: {
+#       chainId: 7777777,
+#       transport: http(process.env.PONDER_RPC_URL_7777777),
+#     },
+#     zoraSepolia: {
+#       chainId: 999999999,
+#       transport: http(process.env.PONDER_RPC_URL_999999999),
+#     },
+#   },
