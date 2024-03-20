@@ -1,0 +1,24 @@
+type UserOp {
+  id: ID!
+  hash: String!
+  txHash: String!
+  chainId: Int!
+  actualGasCost: BigInt!
+  actualGasUsed: BigInt!
+  nonce: BigInt!
+  paymaster: String!
+  sender: String!
+  success: Boolean!
+  entryPoint: String!
+}
+type AccountDeployed {
+  id: ID!
+  hash: String!
+  chainId: Int!
+  txHash: String!
+  factory: String!
+  paymaster: String!
+  sender: String!
+  userOpHash: String!
+  entryPoint: String!
+}
