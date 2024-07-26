@@ -50,13 +50,13 @@ networks:
         address:
           - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
           - "0x0000000071727de22e5e9d8baf0edac6f37da032"
-  - id: 80001 # Polygon Mumbai
-    start_block: 0
-    contracts:
-      - name: Entrypoint # A reference to the global contract definition
-        address:
-          - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
-          - "0x0000000071727de22e5e9d8baf0edac6f37da032"
+  # - id: 80001 # Polygon Mumbai
+  #   start_block: 0
+  #   contracts:
+  #     - name: Entrypoint # A reference to the global contract definition
+  #       address:
+  #         - "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+  #         - "0x0000000071727de22e5e9d8baf0edac6f37da032"
   - id: 1101 # Polygon ZK-EVM
     start_block: 0
     contracts:
